@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  color: #000000;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+<!===ここから本文===>
+
+body {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  align-items:flex-end;
+}
+
+.header-logo h1{
+  font-size: 36px;
+  font-weight:400px;
+  margin-bottom: 15px;
+}
+
+.header-logo p {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #777777;
+}
+
+.header ul {
+  display: flex;
+  font-size: 17px;
+  font-weight: 400px;
+  
+}
+
+.header li {
+  list-style: none;
+  color: black;
+}
+
+.header a {
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.header a:hover {
+  color: #c49029;
+  transition: 0.4s;
+}
+
+.main-picture {
+  margin: 80px 0;
+}
+
+.main-picture img{
+  object-fit: cover;
+}
+
+.main-visual p {
+  font-size: 27px;
+  font-weight: 400px;
+  color: #777777;
+  line-height: 49px;
+  
+}
+
+.articles {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.date {
+  width: 500px;
+  display: block;
+  font-size: 17px;
+  font-weight: 400px;
+  color: #666666;
+}
+
+.content {
+  padding-left: 200px;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+
+.content h2 a {
+  text-decoration: none;
+}
+
+.content h2 a:hover{
+  color: #c49029;
+  transition: 0.4s;
+}
+
+.content p {
+  font-size: 17px;
+  font-weight: 400px;
+  color: #666666;
+}
+
+.select-btn {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #E6E6E6;
+  font-size: 17px;
+}
+
+.select-btn a {
+  border: 1px bold black;
+  text-decoration: : none;
+  text-align: center;
+  padding: 15px 19px;
+  border: 1px solid #E6E6E6;
+  background-color: #EEEEEE;
+}
+
+
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  border-top: 0.5px solid #E6E6E6;
+  border-bottom: 0.5px solid #E6E6E6;
+  margin-top: 30px;
+}
+
+.footer-contents {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  margin: 75px 0;
+}
+
+.footer-content.a {
+  width: 30%;
+}
+
+.footer-content.b {
+  width: 22%;
+}
+
+.footer-content.c {
+  width: 22%;
+}
+
+.footer-content.d {
+  width: 22%;
+}
+
+.a p {
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 29px
+}
+
+.profile {
+  display: flex;
+}
+
+.profile img {
+  display: inline-block;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile h3 {
+  font-size: 19px;
+  font-weight: 600px;
+}
+
+.profile ul {
+  display: flex;
+  text-decoration: none;
+}
+
+.information {
+  margin: 0 auto;
+}
+
+.sns-icons a {
+  font-size: 17px;
+  color: #666666;
+}
+
+.footer-content h4 {
+  font-size: 15px;
+  font-weight: 700px;
+  margin-bottom: 40px;
+}
+
+.footer-content.b p {
+  font-size: 16px;
+  line-height: 27px;
+  
+}
+
+.footer-content p {
+  color: #666666;
+}
+
+.footer-content li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 17px
+}
+
+.footer-content a {
+  color: #666666;
+  border-bottom: 0.5px solid #DDDDDD;
+  text-decoration: none;
+}
+
+.footer-content a:hover{
+  color: #c49029;
+  transition: 0.4s;
+}
+
+.c li {
+  margin-bottom: 30px;
+}
+
+.d li {
+  margin-bottom: 30px;
+}
